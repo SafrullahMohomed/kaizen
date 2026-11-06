@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "contentVersion": 1,
+  "updated": "2026-11-06",
+  "packs": [
+    { "id": "leadership", "file": "packs/leadership.json" },
+    { "id": "learning", "file": "packs/learning.json" },
+    { "id": "engineering", "file": "packs/engineering.json" }
+  ],
+  "journeys": "journeys.json",
+  "topics": [
+    { "id": "leadership", "name": "Leadership", "blurb": "Lead people, give feedback, build teams and make better decisions." },
+    { "id": "learning", "name": "Learning", "blurb": "Learn faster, remember more, focus deeply and build habits that stick." },
+    { "id": "engineering", "name": "Software engineering", "blurb": "Write lasting code, design systems, ship safely and grow toward staff." }
+  ],
+  "focus": {
+    "feedback": "Feedback",
+    "management": "Managing people",
+    "teams": "Teams and culture",
+    "influence": "Influence and empowerment",
+    "decisions": "Decision making",
+    "learning-science": "Learning science",
+    "practice": "Deliberate practice",
+    "focus": "Focus and deep work",
+    "habits": "Habits",
+    "thinking": "Thinking tools",
+    "notes": "Notes and writing",
+    "code-quality": "Code quality",
+    "design": "Software design",
+    "systems": "System design",
+    "reliability": "Reliability",
+    "delivery": "Delivery and teams",
+    "debugging": "Debugging",
+    "career": "Engineering career"
+  }
+}

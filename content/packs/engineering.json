@@ -1,0 +1,676 @@
+{
+  "id": "engineering",
+  "name": "Software engineering",
+  "version": 1,
+  "added": "2026-11-06",
+  "sources": [
+    {
+      "id": "pragmatic-programmer",
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt and David Thomas",
+      "year": 2019,
+      "type": "book",
+      "focus": "code-quality",
+      "intro": "A classic collection of habits for programmers who care about their craft, updated for its 20th anniversary.",
+      "ideas": [
+        {
+          "id": "pp-1",
+          "title": "DRY is about knowledge, not text",
+          "body": "Don't Repeat Yourself means every piece of knowledge should have one authoritative home. It is not about code that merely looks the same.\n\nTwo similar blocks that encode different business rules are not duplication. A single rule defined in two places is, and it causes bugs the day one copy changes and the other does not.",
+          "action": "Find one business rule defined in two places in your codebase. Note it for consolidation.",
+          "q": "What does DRY really mean?",
+          "a": "Every piece of knowledge should have a single authoritative representation."
+        },
+        {
+          "id": "pp-2",
+          "title": "Fix broken windows",
+          "body": "One broken window left unrepaired signals that nobody cares, and soon more windows break. Code works the same way: one hack or ignored warning invites the next.\n\nFix small problems when you see them, or at least board them up with a clear TODO and a ticket.",
+          "action": "Fix one small code smell or warning you have been ignoring.",
+          "q": "What is the broken windows idea in software?",
+          "a": "Unfixed small problems signal neglect and lead to more decay."
+        },
+        {
+          "id": "pp-3",
+          "title": "Fire tracer bullets",
+          "body": "When building something new, first build a thin slice that goes end to end through every layer: UI, API, storage. Each part can be minimal.\n\nIt proves the architecture holds together, gives users something real to react to, and becomes the skeleton you fill in.",
+          "action": "For your next feature, sketch the thinnest end-to-end slice that would work.",
+          "q": "What are tracer bullets in development?",
+          "a": "A thin, working end-to-end slice through all layers that you then build on."
+        },
+        {
+          "id": "pp-4",
+          "title": "Keep things orthogonal",
+          "body": "Two components are orthogonal when changing one does not affect the other. Orthogonal systems are easier to test, change and reason about.\n\nA quick check: if one requirement changes, how many modules must change? Ideally, one.",
+          "action": "Pick a recent change. Count how many modules it touched, and why.",
+          "q": "What makes two components orthogonal?",
+          "a": "Changing one does not affect the other."
+        },
+        {
+          "id": "pp-5",
+          "title": "Talk to the duck",
+          "body": "Explaining your code line by line to someone, even a rubber duck on your desk, often reveals the bug.\n\nSaying it out loud forces you to state the assumptions you were skipping over in your head.",
+          "action": "Next time you are stuck, explain the problem out loud step by step before asking for help.",
+          "q": "Why does rubber duck debugging work?",
+          "a": "Explaining forces you to state assumptions you were silently skipping."
+        },
+        {
+          "id": "pp-6",
+          "title": "The library isn't broken",
+          "body": "When something fails, it is tempting to blame the compiler, the OS or a popular library. The bug is almost always in your own code.\n\nAssume your code is at fault first. Widely used, well-tested tools are rarely the problem, and proving it otherwise takes a minimal reproduction.",
+          "action": "Next time you suspect a library bug, write a minimal test that proves it before blaming it.",
+          "q": "Where is a bug most likely to be?",
+          "a": "In your own code, not in widely used libraries or tools."
+        },
+        {
+          "id": "pp-7",
+          "title": "Invest in your knowledge portfolio",
+          "body": "Treat learning like investing: invest regularly, diversify, balance safe bets with risky ones, and review your holdings.\n\nThe authors suggest learning a new language or tool every year, reading technical books, and talking to people outside your usual circle.",
+          "action": "Choose one new technology to explore this year, and spend 20 minutes on it this week.",
+          "q": "How should you treat your knowledge, per The Pragmatic Programmer?",
+          "a": "Like an investment portfolio: invest regularly and diversify."
+        }
+      ]
+    },
+    {
+      "id": "clean-code",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "year": 2008,
+      "type": "book",
+      "focus": "code-quality",
+      "intro": "A widely read guide to writing code that other people, including future you, can read and change safely.",
+      "ideas": [
+        {
+          "id": "cc-1",
+          "title": "Names that explain themselves",
+          "body": "A good name tells you why something exists, what it does and how to use it. If a name needs a comment to explain it, it is the wrong name.\n\nelapsedDays beats d. Renaming is cheap; confusion is expensive, and it is paid by every future reader.",
+          "action": "Rename one confusing variable or function in code you touch today.",
+          "q": "What should a good name reveal?",
+          "a": "Why it exists, what it does and how it is used."
+        },
+        {
+          "id": "cc-2",
+          "title": "Functions should do one thing",
+          "body": "Small functions that do one thing are easier to name, test and reuse.\n\nA simple test: if you can extract another meaningful function from it, the original was doing more than one thing.",
+          "action": "Find a long function and extract one well-named helper from it.",
+          "q": "How can you tell a function does more than one thing?",
+          "a": "You can extract another meaningful function from it."
+        },
+        {
+          "id": "cc-3",
+          "title": "Leave it cleaner than you found it",
+          "body": "The Boy Scout rule: each time you touch a file, make one small improvement. A clearer name, a removed duplicate, a simpler condition.\n\nSmall, continuous improvements stop code from rotting without the risk of big rewrites.",
+          "action": "Make one small cleanup in a file you edit today.",
+          "q": "What is the Boy Scout rule in code?",
+          "a": "Always leave the code a little cleaner than you found it."
+        },
+        {
+          "id": "cc-4",
+          "title": "Comment the why",
+          "body": "Code shows what it does. Comments should explain why: intent, trade-offs and warnings.\n\nComments that restate the code go stale and start to lie. Express intent in the code where you can, and save comments for reasons the code cannot express.",
+          "action": "Delete one comment that restates the code, or add one that explains a non-obvious why.",
+          "q": "What should comments explain?",
+          "a": "Why: intent, trade-offs and warnings, not what the code does."
+        }
+      ]
+    },
+    {
+      "id": "refactoring",
+      "title": "Refactoring",
+      "author": "Martin Fowler",
+      "year": 2018,
+      "type": "book",
+      "focus": "code-quality",
+      "intro": "The definitive guide to improving the design of existing code safely, one small step at a time.",
+      "ideas": [
+        {
+          "id": "rf-1",
+          "title": "Tiny steps, tests green",
+          "body": "Refactoring means changing the structure of code without changing its behavior, in small steps, running the tests after each one.\n\nBig-bang rewrites are risky. Tiny refactorings each keep the system working, and they add up to large improvements.",
+          "action": "Do one refactoring today in steps small enough to run the tests after each.",
+          "q": "What is refactoring?",
+          "a": "Changing code structure without changing behavior, in small tested steps."
+        },
+        {
+          "id": "rf-2",
+          "title": "Make the change easy, then make the easy change",
+          "body": "Before adding a feature to tangled code, first refactor so the change becomes simple. Then add the feature.\n\nThis well-known advice from Kent Beck splits one risky change into two safe, reviewable ones.",
+          "action": "Before your next feature, ask: which refactoring would make this change trivial?",
+          "q": "What is Kent Beck's advice for hard changes?",
+          "a": "First make the change easy by refactoring, then make the easy change."
+        },
+        {
+          "id": "rf-3",
+          "title": "Learn to smell",
+          "body": "Code smells are surface signs of deeper problems: long functions, duplicated code, long parameter lists, feature envy where a method cares more about another class's data, and shotgun surgery where one change touches many files.\n\nSmells are not bugs. They point to where refactoring will pay off.",
+          "action": "Name one code smell in your codebase and the refactoring that would fix it.",
+          "q": "What is “shotgun surgery”?",
+          "a": "When one change requires edits in many different places."
+        },
+        {
+          "id": "rf-4",
+          "title": "The rule of three",
+          "body": "The first time you do something, just do it. The second time, wince at the duplication but do it anyway. The third time, refactor.\n\nAbstracting too early tends to produce the wrong abstraction, which is harder to undo than duplication.",
+          "action": "Look for something you have written three times and consider abstracting it.",
+          "q": "When should you remove duplication, per the rule of three?",
+          "a": "The third time you see it."
+        }
+      ]
+    },
+    {
+      "id": "philosophy-of-software-design",
+      "title": "A Philosophy of Software Design",
+      "author": "John Ousterhout",
+      "year": 2018,
+      "type": "book",
+      "focus": "design",
+      "intro": "A Stanford professor's short, opinionated book on the one thing that makes software hard: complexity.",
+      "ideas": [
+        {
+          "id": "ap-1",
+          "title": "Complexity is the enemy",
+          "body": "Complexity is anything that makes software hard to understand or change. Ousterhout traces it to two causes: dependencies, code that cannot be understood on its own, and obscurity, important information that is not obvious.\n\nIt builds up in small increments, so it has to be fought in small increments too.",
+          "action": "In your next review, point out one dependency or obscurity that adds complexity.",
+          "q": "What are the two causes of complexity, per Ousterhout?",
+          "a": "Dependencies and obscurity."
+        },
+        {
+          "id": "ap-2",
+          "title": "Build deep modules",
+          "body": "The best modules hide a lot of functionality behind a simple interface. Unix file I/O is the classic example: five calls hide enormous complexity.\n\nShallow modules have interfaces almost as complex as their implementation, and add little. Aim for interfaces much simpler than what they hide.",
+          "action": "Look at a class you own. Is its interface much simpler than its implementation?",
+          "q": "What is a deep module?",
+          "a": "One with a simple interface that hides significant functionality."
+        },
+        {
+          "id": "ap-3",
+          "title": "Strategic, not tactical",
+          "body": "Tactical programming focuses on getting the feature working fast, and quietly piles up complexity. Strategic programming invests a little extra in good design; Ousterhout suggests about ten to twenty percent of your time.\n\nThe investment pays back quickly, because well-designed code is faster to change.",
+          "action": "Spend 15 extra minutes on your next task improving the design, not just making it work.",
+          "q": "What is strategic programming?",
+          "a": "Investing extra time in good design rather than just making features work."
+        },
+        {
+          "id": "ap-4",
+          "title": "Define errors out of existence",
+          "body": "Every exception adds complexity wherever it travels. Where you can, design the API so the error case simply cannot happen.\n\nFor example, deleting a key that does not exist can just do nothing. Fewer special cases means simpler code for every caller.",
+          "action": "Find one error case in your code that could be designed away.",
+          "q": "What does “define errors out of existence” mean?",
+          "a": "Design APIs so error conditions cannot occur, removing special cases."
+        },
+        {
+          "id": "ap-5",
+          "title": "Design it twice",
+          "body": "Your first design idea is rarely your best. Sketch at least two quite different approaches before choosing.\n\nComparing them exposes trade-offs you would not otherwise see, and often suggests a better third option.",
+          "action": "For your next design, sketch two radically different approaches before choosing.",
+          "q": "Why design it twice?",
+          "a": "Comparing alternatives exposes trade-offs and better options than the first idea."
+        },
+        {
+          "id": "ap-6",
+          "title": "Hide information",
+          "body": "Each module should keep its design decisions, such as data formats and algorithms, to itself, so other modules do not depend on them.\n\nInformation leakage is when one decision shows up in several modules. Then a single change ripples everywhere.",
+          "action": "Find a detail, like a file format, that several modules know about. Consider hiding it behind one.",
+          "q": "What is information leakage?",
+          "a": "When one design decision is reflected in several modules, making change costly."
+        }
+      ]
+    },
+    {
+      "id": "ddia",
+      "title": "Designing Data-Intensive Applications",
+      "author": "Martin Kleppmann",
+      "year": 2017,
+      "type": "book",
+      "focus": "systems",
+      "intro": "The modern classic on how databases and distributed systems really work, and the trade-offs behind them.",
+      "ideas": [
+        {
+          "id": "dd-1",
+          "title": "Reliable, scalable, maintainable",
+          "body": "Kleppmann frames good data systems around three concerns. Reliability: working correctly even when things go wrong. Scalability: coping reasonably with growth. Maintainability: letting people work on it productively for years.\n\nMost design trade-offs are tensions between these three.",
+          "action": "Rate a system you work on from 1 to 5 on each of the three. Which is weakest?",
+          "q": "What three concerns does DDIA center on?",
+          "a": "Reliability, scalability and maintainability."
+        },
+        {
+          "id": "dd-2",
+          "title": "Averages hide pain",
+          "body": "Measure latency with percentiles, not averages. The median shows the typical experience; p95 and p99 show the tail, where your slowest users live.\n\nWhen one page calls many services, even a small slow tail affects a large share of page loads.",
+          "action": "Check the p99 latency of a key endpoint you own, not just the average.",
+          "q": "Why use percentiles instead of averages for latency?",
+          "a": "Averages hide the tail latency that real users experience."
+        },
+        {
+          "id": "dd-3",
+          "title": "Replicas lag",
+          "body": "With asynchronous replication, follower databases can fall behind the leader. A user might save something and then not see it on the next page.\n\nGuarantees like read-your-writes exist to hide this. Know which ones your system actually provides.",
+          "action": "For a system you use, find out whether reads can return stale data.",
+          "q": "What is read-your-writes consistency?",
+          "a": "A guarantee that users always see their own updates."
+        },
+        {
+          "id": "dd-4",
+          "title": "Beware the hot spot",
+          "body": "Splitting data across machines, known as partitioning or sharding, lets you scale. But a poor partition key can pile load onto a single machine: a hot spot.\n\nChoose keys that spread load evenly, and think about skewed access, like one celebrity account getting most of the traffic.",
+          "action": "Identify the partition key for one of your datastores. Could it create hot spots?",
+          "q": "What is a hot spot in partitioning?",
+          "a": "A partition that gets disproportionately high load because of uneven key distribution."
+        },
+        {
+          "id": "dd-5",
+          "title": "Make it safe to retry",
+          "body": "In distributed systems, requests get retried and messages get duplicated. An idempotent operation has the same effect whether it runs once or many times.\n\nFor payments and other side effects, use idempotency keys so a retry never charges twice.",
+          "action": "Check whether one API you own is safe to retry. If not, consider an idempotency key.",
+          "q": "What is an idempotent operation?",
+          "a": "One that has the same effect whether it runs once or many times."
+        },
+        {
+          "id": "dd-6",
+          "title": "The log is the truth",
+          "body": "An append-only log of events can be the backbone of a system. Databases, caches and search indexes become views derived by reading the log.\n\nThis makes it easier to rebuild state, add new views, and reason about how data changed over time.",
+          "action": "Sketch how a system you know could be described as a log of events plus derived views.",
+          "q": "What role can an append-only log play in system design?",
+          "a": "A source of truth from which databases, caches and indexes are derived."
+        }
+      ]
+    },
+    {
+      "id": "sre-book",
+      "title": "Site Reliability Engineering",
+      "author": "Betsy Beyer, Chris Jones, Jennifer Petoff and Niall Murphy",
+      "year": 2016,
+      "type": "book",
+      "focus": "reliability",
+      "intro": "How Google runs production systems, written by the engineers who invented the SRE discipline.",
+      "ideas": [
+        {
+          "id": "sr-1",
+          "title": "Define reliable enough",
+          "body": "One hundred percent reliability is the wrong target. It is enormously expensive, and past a point users cannot tell the difference.\n\nInstead, set a service level objective, such as 99.9% of requests succeed, based on what users need, and measure it with service level indicators.",
+          "action": "Write an SLO for a service you own: what percentage of what should succeed?",
+          "q": "Why is 100% the wrong reliability target?",
+          "a": "It is extremely costly, and users cannot notice the difference beyond a point."
+        },
+        {
+          "id": "sr-2",
+          "title": "Spend your error budget",
+          "body": "If the SLO is 99.9%, the remaining 0.1% is an error budget you are allowed to spend on risk: launches, migrations, experiments.\n\nWhen the budget runs out, focus shifts to reliability. It turns the old argument between speed and stability into a shared, data-driven rule.",
+          "action": "Work out how many minutes of downtime a month a 99.9% SLO allows. (About 43.)",
+          "q": "What is an error budget?",
+          "a": "The allowed unreliability, 100% minus the SLO, that can be spent on risk."
+        },
+        {
+          "id": "sr-3",
+          "title": "Kill the toil",
+          "body": "Toil is manual, repetitive, automatable work that grows with the service and leaves nothing lasting behind.\n\nGoogle's SRE teams aim to keep toil under half of an engineer's time, and spend the rest on engineering that removes future toil.",
+          "action": "List one repetitive task you did this week that could be automated.",
+          "q": "What is toil?",
+          "a": "Manual, repetitive, automatable work with no lasting value that scales with the service."
+        },
+        {
+          "id": "sr-4",
+          "title": "Blameless postmortems",
+          "body": "After an incident, write up what happened and how to prevent it, without blaming individuals.\n\nWhen people are blamed, they hide information. A blameless culture surfaces the real causes, which are almost always in the system rather than one person.",
+          "action": "Reread the last incident report you saw. Does it point at systems, or at people?",
+          "q": "Why make postmortems blameless?",
+          "a": "Blame makes people hide information; blamelessness surfaces systemic causes."
+        },
+        {
+          "id": "sr-5",
+          "title": "The four golden signals",
+          "body": "If you can only monitor four things in a user-facing system, monitor latency, traffic, errors and saturation.\n\nTogether they tell you whether users are suffering, and give strong clues about why.",
+          "action": "Check whether your service has a dashboard for all four golden signals.",
+          "q": "What are the four golden signals?",
+          "a": "Latency, traffic, errors and saturation."
+        },
+        {
+          "id": "sr-6",
+          "title": "Page on symptoms, not causes",
+          "body": "Wake a human only for things that are urgent, actionable and hurting users. Paging on every possible cause, such as high CPU, creates noise and alert fatigue.\n\nIf an alert never needs action, it belongs on a dashboard, not a pager.",
+          "action": "Review one alert you get often. If it is not actionable, demote it.",
+          "q": "What should page a human?",
+          "a": "Urgent, actionable issues affecting users: symptoms, not every possible cause."
+        }
+      ]
+    },
+    {
+      "id": "accelerate",
+      "title": "Accelerate",
+      "author": "Nicole Forsgren, Jez Humble and Gene Kim",
+      "year": 2018,
+      "type": "book",
+      "focus": "delivery",
+      "intro": "Years of DORA research on what actually makes software teams fast and stable at the same time.",
+      "ideas": [
+        {
+          "id": "ac-1",
+          "title": "Four metrics that matter",
+          "body": "The DORA research found four measures that predict software delivery performance: how often you deploy, lead time from commit to production, how often changes fail, and how fast you recover.\n\nHigh performers do well on all four. Speed and stability move together.",
+          "action": "Estimate your team's four key metrics. Which one is weakest?",
+          "q": "What are the four key DORA metrics?",
+          "a": "Deployment frequency, lead time for changes, change failure rate and time to restore service."
+        },
+        {
+          "id": "ac-2",
+          "title": "Speed and stability are friends",
+          "body": "The research showed the best teams deploy more often and break things less. That sounds backward until you see why.\n\nSmall, frequent changes are easier to test, review and roll back. Moving faster, in small steps, actually lowers risk.",
+          "action": "Look at your last big release. Could it have shipped as several smaller ones?",
+          "q": "Do high-performing teams trade speed for stability?",
+          "a": "No. They get both, through small, frequent changes."
+        },
+        {
+          "id": "ac-3",
+          "title": "Ship in small batches",
+          "body": "Small batches shorten feedback loops, reduce risk and make problems easier to find.\n\nBreak features into pieces you can merge within a day or two, using feature flags to hide work that is not ready yet.",
+          "action": "Split your current task into pieces small enough to merge within a day.",
+          "q": "Why work in small batches?",
+          "a": "Faster feedback, lower risk and easier debugging."
+        },
+        {
+          "id": "ac-4",
+          "title": "Short branches, continuous integration",
+          "body": "High performers keep branches short-lived, often under a day, and merge to the main branch frequently with automated tests on every change.\n\nLong-lived branches make merges painful and hide integration problems until the worst possible moment.",
+          "action": "Check how old your oldest open branch is. Can you merge it or split it?",
+          "q": "Which branching practice correlates with high performance?",
+          "a": "Trunk-based development with short-lived branches and continuous integration."
+        },
+        {
+          "id": "ac-5",
+          "title": "Loose coupling, independent teams",
+          "body": "One of the strongest predictors of delivery performance is architecture that lets a team test and deploy its work without coordinating with other teams.\n\nIf every release needs a meeting across teams, the architecture is slowing you down.",
+          "action": "Identify one dependency that forces your team to coordinate releases with another team.",
+          "q": "Which architectural trait predicts delivery performance?",
+          "a": "Loose coupling that lets teams test and deploy independently."
+        },
+        {
+          "id": "ac-6",
+          "title": "Generative culture",
+          "body": "Sociologist Ron Westrum described three kinds of organizational culture: pathological, focused on power; bureaucratic, focused on rules; and generative, focused on performance.\n\nGenerative cultures share information freely, share risk, and treat failure as a chance to learn. Accelerate found they deliver better software.",
+          "action": "Think about how your team handles failure. Which of Westrum's cultures does it resemble?",
+          "q": "What are Westrum's three organizational cultures?",
+          "a": "Pathological, bureaucratic and generative."
+        }
+      ]
+    },
+    {
+      "id": "software-engineering-at-google",
+      "title": "Software Engineering at Google",
+      "author": "Titus Winters, Tom Manshreck and Hyrum Wright",
+      "year": 2020,
+      "type": "book",
+      "focus": "design",
+      "intro": "Lessons from keeping a huge codebase healthy for decades, with an emphasis on time, scale and trade-offs.",
+      "ideas": [
+        {
+          "id": "sg-1",
+          "title": "Programming over time",
+          "body": "The authors draw a line: programming is writing code; software engineering is programming integrated over time, keeping code working and changeable for years.\n\nA shortcut that is fine in a one-off script can be very expensive in a system that will live for a decade.",
+          "action": "For the code you are writing now, ask how long it will live, and adjust the care you put in.",
+          "q": "How do the authors distinguish software engineering from programming?",
+          "a": "Software engineering is programming integrated over time."
+        },
+        {
+          "id": "sg-2",
+          "title": "Hyrum's law",
+          "body": "With enough users of an API, every observable behavior will be depended on by somebody, whatever the documentation promises.\n\nEven changing undocumented details, like the order of a list, can break someone. Be careful what you expose.",
+          "action": "Think of one undocumented behavior in something you maintain that users might rely on.",
+          "q": "What is Hyrum's law?",
+          "a": "With enough users, every observable behavior of a system will be depended on by somebody."
+        },
+        {
+          "id": "sg-3",
+          "title": "If you liked it, put a test on it",
+          "body": "Google calls this the Beyoncé rule. If a behavior matters to you and no test covers it, other people's infrastructure changes may break it.\n\nWhen that happens, it is on you, not on the people who changed the infrastructure.",
+          "action": "Add a test for one important behavior that is not covered yet.",
+          "q": "What is the Beyoncé rule?",
+          "a": "If you care about a behavior, you should have a test for it."
+        },
+        {
+          "id": "sg-4",
+          "title": "Reviews spread knowledge",
+          "body": "Code reviews catch bugs, but their bigger value is spreading knowledge, keeping the codebase consistent, and making sure at least one other person understands each change.\n\nSmall changes get faster, more thorough reviews.",
+          "action": "In your next code review, leave one comment that teaches something or asks why.",
+          "q": "What is a major benefit of code review besides catching bugs?",
+          "a": "Spreading knowledge and keeping the codebase consistent and understandable."
+        },
+        {
+          "id": "sg-5",
+          "title": "Shift left",
+          "body": "The earlier a problem is found, at design, coding or test time rather than in production, the cheaper it is to fix.\n\nInvest in static analysis, good tests and reviews early in the developer workflow.",
+          "action": "Identify one kind of bug your team finds in production that could be caught earlier.",
+          "q": "What does “shift left” mean?",
+          "a": "Finding problems earlier in development, where they are cheaper to fix."
+        },
+        {
+          "id": "sg-6",
+          "title": "Ask early",
+          "body": "Engineers who struggle alone for days waste time and learn slowly. A team where asking simple questions is safe, and where answers get written down, scales its knowledge.\n\nThe person who asks often makes the whole team smarter.",
+          "action": "Ask one question you have been hesitating to ask today, and write down the answer.",
+          "q": "Why should engineers ask questions early?",
+          "a": "Struggling alone wastes time; asking spreads knowledge across the team."
+        }
+      ]
+    },
+    {
+      "id": "debugging-rules",
+      "title": "Debugging: The 9 Indispensable Rules",
+      "author": "David J. Agans",
+      "year": 2002,
+      "type": "book",
+      "focus": "debugging",
+      "intro": "Timeless rules for finding the cause of any hardware or software problem, drawn from decades of war stories.",
+      "ideas": [
+        {
+          "id": "db-1",
+          "title": "Make it fail",
+          "body": "You cannot fix what you cannot reproduce. Finding the steps that make the bug happen reliably is half the battle.\n\nA reliable reproduction lets you test ideas quickly, and later proves the fix really worked.",
+          "action": "For the next bug you face, write exact reproduction steps before touching the code.",
+          "q": "What is the first step in fixing a bug?",
+          "a": "Reliably reproduce it: make it fail."
+        },
+        {
+          "id": "db-2",
+          "title": "Quit thinking and look",
+          "body": "Theorizing about what might be wrong is tempting and often wrong. Watch the real system instead: logs, a debugger, extra instrumentation.\n\nKeep looking until you see the failure happen. Data beats guesses.",
+          "action": "On your next bug, add logging or use a debugger to watch the failure before forming theories.",
+          "q": "What does “quit thinking and look” mean?",
+          "a": "Observe the actual failure with data instead of guessing."
+        },
+        {
+          "id": "db-3",
+          "title": "Divide and conquer",
+          "body": "Narrow the search by halves. Is the bug before or after this point? In this half of the data or that one?\n\nBinary search through code, inputs or commits, with tools like git bisect, finds the culprit surprisingly fast.",
+          "action": "Practice git bisect on a small repository this week.",
+          "q": "How does divide and conquer work in debugging?",
+          "a": "Repeatedly halving the search space to isolate the bug."
+        },
+        {
+          "id": "db-4",
+          "title": "Change one thing at a time",
+          "body": "If you change several things and the bug disappears, you do not know which change fixed it, or what else you broke.\n\nChange one variable, test, and write down the result. Then the next.",
+          "action": "Next time you debug, keep a short log of each change and its result.",
+          "q": "Why change one thing at a time when debugging?",
+          "a": "So you know which change had which effect."
+        },
+        {
+          "id": "db-5",
+          "title": "If you didn't fix it, it ain't fixed",
+          "body": "Bugs that vanish on their own come back. Make sure you understand the cause.\n\nVerify the fix by reproducing the original failure, applying the fix, and confirming it no longer happens.",
+          "action": "For the last bug you fixed, confirm you know the root cause, not just the symptom.",
+          "q": "What should you do when a bug disappears on its own?",
+          "a": "Don't trust it. Find the cause; unexplained fixes tend to come back."
+        },
+        {
+          "id": "db-6",
+          "title": "Check the plug",
+          "body": "Question the basics first. Is the right version deployed? Is the config loaded? Is the service even running?\n\nHours disappear debugging code when the real problem is the environment.",
+          "action": "Write a short checklist of basics to verify before deep debugging.",
+          "q": "What does “check the plug” remind you to do?",
+          "a": "Verify basic assumptions such as config, version and environment before deep debugging."
+        }
+      ]
+    },
+    {
+      "id": "mythical-man-month",
+      "title": "The Mythical Man-Month",
+      "author": "Fred Brooks",
+      "year": 1975,
+      "type": "book",
+      "focus": "delivery",
+      "intro": "Essays from the manager of IBM's OS/360 that are still uncomfortably true half a century later.",
+      "ideas": [
+        {
+          "id": "bm-1",
+          "title": "Brooks's law",
+          "body": "Adding people to a late software project makes it later. Newcomers need time to ramp up, and the number of communication paths grows much faster than headcount.\n\nSome work simply cannot be sped up by adding hands.",
+          "action": "When a project slips, consider cutting scope before adding people.",
+          "q": "What is Brooks's law?",
+          "a": "Adding people to a late software project makes it later."
+        },
+        {
+          "id": "bm-2",
+          "title": "No silver bullet",
+          "body": "No single tool or practice will make software ten times more productive. Most of the difficulty is essential complexity, inherent in the problem, rather than accidental complexity from our tools.\n\nBetter tools shrink the accidental part. The essential part still needs careful thought.",
+          "action": "For a hard part of your system, decide whether its complexity is essential or accidental.",
+          "q": "What is the difference between essential and accidental complexity?",
+          "a": "Essential comes from the problem itself; accidental comes from tools and approaches."
+        },
+        {
+          "id": "bm-3",
+          "title": "Conceptual integrity",
+          "body": "The best systems feel as if one mind designed them: the same ideas apply consistently everywhere.\n\nThat usually requires a small number of people owning the coherence of the design, even when many people build it.",
+          "action": "Find one place where your system handles similar things in inconsistent ways.",
+          "q": "What is conceptual integrity?",
+          "a": "A design that is coherent and consistent, as if from one mind."
+        },
+        {
+          "id": "bm-4",
+          "title": "The second-system effect",
+          "body": "After a successful first system, designers tend to overload the second with every idea they held back the first time.\n\nBe wary of ambition bloat in rewrites. The new version should solve today's problems, not every problem you ever imagined.",
+          "action": "If you are planning a rewrite, list the features you would add, then cut half.",
+          "q": "What is the second-system effect?",
+          "a": "Over-engineering a follow-up system with every previously deferred idea."
+        },
+        {
+          "id": "bm-5",
+          "title": "Conway's law",
+          "body": "Organizations design systems that mirror their own communication structure. Melvin Conway made the observation in 1968, and Brooks helped make it famous.\n\nIf you want a particular architecture, shape the teams to match it. People call this the inverse Conway maneuver.",
+          "action": "Compare your system's architecture with your org chart. Where do they mirror each other?",
+          "q": "What is Conway's law?",
+          "a": "Systems mirror the communication structures of the organizations that build them."
+        }
+      ]
+    },
+    {
+      "id": "staff-engineers-path",
+      "title": "The Staff Engineer's Path",
+      "author": "Tanya Reilly",
+      "year": 2022,
+      "type": "book",
+      "focus": "career",
+      "intro": "A guide to the senior technical track beyond senior engineer, where influence matters more than lines of code.",
+      "ideas": [
+        {
+          "id": "se-1",
+          "title": "Three pillars of staff work",
+          "body": "Reilly describes staff engineering as three pillars. Big-picture thinking: looking beyond the current ticket and quarter. Project execution: leading complex, messy, cross-team work to done. Leveling up others: making the engineers around you better.\n\nMost people are strong in one pillar and grow into the others.",
+          "action": "Rate yourself 1 to 5 on big-picture thinking, execution and leveling up others.",
+          "q": "What are Reilly's three pillars of staff engineering?",
+          "a": "Big-picture thinking, project execution and leveling up others."
+        },
+        {
+          "id": "se-2",
+          "title": "Write it down",
+          "body": "As your scope grows, your influence travels through writing: design docs, decision records, technical strategies.\n\nWriting scales your thinking to people you will never meet, and makes decisions reviewable long after the meeting ends.",
+          "action": "Write a one-page decision record for a recent technical choice.",
+          "q": "Why is writing so important for senior engineers?",
+          "a": "It scales influence and makes reasoning reviewable by many people."
+        },
+        {
+          "id": "se-3",
+          "title": "Glue work is real work",
+          "body": "Onboarding people, unblocking others, reviewing, coordinating across teams: this glue work keeps projects moving, but it is often invisible.\n\nReilly's well-known talk on the subject makes the point: do it deliberately, make it visible, and make sure it is recognized, or it can quietly stall your career.",
+          "action": "List the glue work you did this month, and mention it in your next 1:1.",
+          "q": "What is glue work?",
+          "a": "Less visible work like onboarding, unblocking and coordinating that keeps a team effective."
+        },
+        {
+          "id": "se-4",
+          "title": "Know the map",
+          "body": "Understand the landscape: the business goals, the technology, the people, and where things are heading.\n\nSenior engineers create value by seeing where the organization should go, not just by finishing what is already on the board.",
+          "action": "Sketch a quick map of your organization: teams, systems and how work flows between them.",
+          "q": "Why should senior engineers understand the broader landscape?",
+          "a": "To see where the organization should go and choose work that matters."
+        },
+        {
+          "id": "se-5",
+          "title": "Spend time where it matters most",
+          "body": "Your time is limited, and easy, low-impact tasks are always available and always feel productive.\n\nLook instead for problems where your particular skills are needed and where the outcome matters to the business. Saying no to the rest is part of the job.",
+          "action": "Look at your task list and mark the items with the highest business impact.",
+          "q": "What kind of work should senior engineers prioritize?",
+          "a": "High-impact problems that need their particular skills."
+        }
+      ]
+    },
+    {
+      "id": "system-design-basics",
+      "title": "System design fundamentals",
+      "author": "Common practice",
+      "year": 2026,
+      "type": "concept",
+      "focus": "systems",
+      "intro": "Core building blocks that come up in almost every system design conversation, from estimates to failure handling.",
+      "ideas": [
+        {
+          "id": "sd-1",
+          "title": "Estimate on the back of an envelope",
+          "body": "Before designing, estimate the scale: requests per second, data size, bandwidth. Ten million requests a day is only about 115 a second on average, though peaks may be several times higher.\n\nRough numbers rule out designs fast and show where the real bottleneck is.",
+          "action": "Estimate the peak requests per second for a service you work on.",
+          "q": "Roughly how many requests per second is 10 million requests a day?",
+          "a": "About 115 per second on average."
+        },
+        {
+          "id": "sd-2",
+          "title": "Cache with intent",
+          "body": "Caching cuts latency and load, but adds staleness and the famously hard problem of invalidation.\n\nDecide deliberately what to cache, for how long, and how it gets invalidated. Cache-aside, write-through and time-based expiry each carry different trade-offs.",
+          "action": "For one cache you use, write down how and when its entries are invalidated.",
+          "q": "What is the main trade-off of caching?",
+          "a": "Faster reads in exchange for possible staleness and invalidation complexity."
+        },
+        {
+          "id": "sd-3",
+          "title": "CAP: choose during a partition",
+          "body": "When a network partition splits a distributed system, it must choose between consistency, every read sees the latest write, and availability, every request gets an answer.\n\nWithout a partition you can have both. But partitions always happen eventually, so know which your system picks.",
+          "action": "For a datastore you use, find out whether it favors consistency or availability during a partition.",
+          "q": "What does the CAP theorem say you must choose between during a partition?",
+          "a": "Consistency and availability."
+        },
+        {
+          "id": "sd-4",
+          "title": "Queues absorb shocks",
+          "body": "Message queues let producers and consumers work at different speeds, smooth out traffic spikes and keep one failure from spreading.\n\nThe cost is eventual consistency and new failure modes, such as growing backlogs and poison messages that fail forever.",
+          "action": "Find one synchronous call in your system that could become asynchronous with a queue.",
+          "q": "What do message queues help with?",
+          "a": "Decoupling services, absorbing spikes and isolating failures."
+        },
+        {
+          "id": "sd-5",
+          "title": "Design for failure",
+          "body": "In distributed systems everything fails eventually. Put a timeout on every network call. Retry with exponential backoff and random jitter, so retries do not stampede.\n\nUse circuit breakers to stop calling a struggling service and give it room to recover.",
+          "action": "Check that one network call you own has a timeout and a sensible retry policy.",
+          "q": "What stops retries from overwhelming a recovering service?",
+          "a": "Exponential backoff with jitter, plus circuit breakers."
+        },
+        {
+          "id": "sd-6",
+          "title": "Stateless scales",
+          "body": "A stateless service can grow by adding more instances behind a load balancer, because any instance can serve any request.\n\nPush state into databases, caches or object storage. In-memory state, like sessions on one server, is what breaks when you scale out.",
+          "action": "Find any in-memory state in a service you own that would break with more instances.",
+          "q": "Why make services stateless?",
+          "a": "So any instance can serve any request, which allows horizontal scaling."
+        }
+      ]
+    }
+  ]
+}

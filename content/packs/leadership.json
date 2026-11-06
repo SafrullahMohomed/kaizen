@@ -1,0 +1,550 @@
+{
+  "id": "leadership",
+  "name": "Leadership",
+  "version": 1,
+  "added": "2026-11-06",
+  "sources": [
+    {
+      "id": "radical-candor",
+      "title": "Radical Candor",
+      "author": "Kim Scott",
+      "year": 2017,
+      "type": "book",
+      "focus": "feedback",
+      "intro": "A former Google and Apple manager on how to be kind and clear at the same time, so feedback actually helps people grow.",
+      "ideas": [
+        {
+          "id": "rc-1",
+          "title": "Care and challenge, at the same time",
+          "body": "Radical Candor sits where two things meet: showing that you care about someone personally, and being willing to tell them a hard truth directly.\n\nDrop the care and you get obnoxious aggression. Drop the challenge and you get ruinous empathy, a kindness that lets people fail. Drop both and you get manipulative insincerity. The goal is not to be nice or tough, but both at once, so the feedback lands as help.",
+          "action": "Think of one piece of feedback you have been holding back. Write the first sentence you would say, starting with why you care.",
+          "q": "What two dimensions define Radical Candor?",
+          "a": "Caring personally and challenging directly, at the same time."
+        },
+        {
+          "id": "rc-2",
+          "title": "Silence is not kindness",
+          "body": "Most managers do not fail by being cruel. They fail by being too nice. Holding back criticism to spare someone's feelings feels kind in the moment, but the person keeps making the same mistake.\n\nLater, the consequences arrive anyway: a bad review, a missed promotion, a lost job. Those hurt far more than an early, honest conversation would have. Ruinous empathy only delays the pain and removes their chance to fix it.",
+          "action": "Name one person you have been protecting from feedback. Book five minutes with them this week.",
+          "q": "Why is ruinous empathy harmful?",
+          "a": "Withholding criticism stops people from improving, so bigger consequences hit them later."
+        },
+        {
+          "id": "rc-3",
+          "title": "Ask for criticism before you give it",
+          "body": "Before you dish out feedback, prove you can take it. Have a go-to question such as: what could I do, or stop doing, that would make it easier to work with me?\n\nThen sit through the awkward silence, listen to understand rather than to defend, and visibly act on what you hear. People only learn that honesty is safe when they watch you reward it.",
+          "action": "Ask one colleague today what you could do differently to help them. Then just listen.",
+          "q": "Why should leaders ask for criticism before giving it?",
+          "a": "It shows they can take it, builds trust, and makes candor feel safe."
+        },
+        {
+          "id": "rc-4",
+          "title": "Specific praise teaches; vague praise flatters",
+          "body": "A quick “great job” feels good but teaches nothing. Useful praise names what exactly was good and why it mattered, so the person knows what to repeat.\n\nCriticism works best in private and soon, while details are fresh. Small, frequent, two-minute conversations beat saving everything for a formal review, where it arrives too late to change anything.",
+          "action": "Give one specific piece of praise today: the action, its impact, and why it mattered.",
+          "q": "What makes praise useful rather than empty?",
+          "a": "Being specific about what was done and why it mattered, so it can be repeated."
+        },
+        {
+          "id": "rc-5",
+          "title": "Criticize the work, not the person",
+          "body": "“That approach will not scale” invites a fix. “You are careless” attacks identity and triggers defense. Keep criticism about behavior and its effect.\n\nA simple frame is situation, behavior, impact: in yesterday's review, you merged without tests, and the release broke for two customers. It is concrete, hard to argue with, and gives the person something they can change.",
+          "action": "Rewrite one piece of upcoming feedback as situation, behavior, impact.",
+          "q": "Why frame criticism around behavior instead of personality?",
+          "a": "Behavior is specific and changeable; labels attack identity and cause defensiveness."
+        },
+        {
+          "id": "rc-6",
+          "title": "Rock stars and superstars",
+          "body": "Not everyone wants the same thing from work. Some people are on a steep growth path and want new challenges. Others are on a gradual path: excellent, steady, and seeking mastery.\n\nScott calls them superstars and rock stars, and a strong team needs both. Mistaking one for the other leads to bad calls: promoting someone who wanted stability, or boring someone who needed a stretch.",
+          "action": "For each person you work closely with, note whether they want growth or stability right now. Check your guess with one of them.",
+          "q": "What separates rock stars from superstars?",
+          "a": "Rock stars want stability and mastery; superstars want rapid growth and new challenges."
+        }
+      ]
+    },
+    {
+      "id": "making-of-a-manager",
+      "title": "The Making of a Manager",
+      "author": "Julie Zhuo",
+      "year": 2019,
+      "type": "book",
+      "focus": "management",
+      "intro": "A practical field guide from a first-time manager who grew into leading large design teams at Facebook.",
+      "ideas": [
+        {
+          "id": "mm-1",
+          "title": "Your job is the team's outcome",
+          "body": "A manager's job is not to do the work, attend meetings, or be the smartest person in the room. It is to get better outcomes from a group of people working together.\n\nZhuo gives three levers: purpose, meaning why the team exists; people, meaning who does the work and how well; and process, meaning how they work together. When results disappoint, find the lever that is off.",
+          "action": "Write one sentence each about your team's purpose, people and process. Circle the weakest.",
+          "q": "What three levers does a manager use to improve outcomes?",
+          "a": "Purpose, people and process."
+        },
+        {
+          "id": "mm-2",
+          "title": "The 1:1 belongs to them",
+          "body": "A one-on-one should be the most useful thirty minutes of the other person's week. It is about what they need, not a status update you could read in a doc.\n\nAsk what is on their mind, what is blocking them, and how they feel about their work. If nothing changes after a 1:1, it was a status meeting in disguise.",
+          "action": "Before your next 1:1, ask the other person to bring the top thing on their mind.",
+          "q": "Whose meeting is a 1:1?",
+          "a": "The other person's. It should focus on their needs, not status updates."
+        },
+        {
+          "id": "mm-3",
+          "title": "Delegate the work you would keep",
+          "body": "New managers often hoard the interesting work and hand off the leftovers. Instead, delegate in a way that stretches people toward their strengths.\n\nIf someone can do a task at seventy percent of your quality, let them. They will get better, and you will be free for work only you can do. Your quality bar drops a little for a while; the team's capacity grows for good.",
+          "action": "List three tasks someone else could do at 70% of your quality. Hand one off this week.",
+          "q": "When should you delegate a task you could do better yourself?",
+          "a": "When someone can do it reasonably well. They grow, and you free time for higher-leverage work."
+        },
+        {
+          "id": "mm-4",
+          "title": "No outcome, no meeting",
+          "body": "Before calling a meeting, name what should be true when it ends: a decision made, information shared, ideas generated, or a relationship strengthened.\n\nIf you cannot state the outcome, you probably do not need the meeting. Invite only the people needed to reach it, and end early once you have it.",
+          "action": "Write the desired outcome in the first line of your next meeting invite.",
+          "q": "What should you define before calling a meeting?",
+          "a": "Its desired outcome, such as a decision, shared information or ideas."
+        },
+        {
+          "id": "mm-5",
+          "title": "Hiring compounds",
+          "body": "A team is the sum of its people, so every hire shapes the next several years. Know what the team actually needs before opening a role, design interviews that test exactly those skills, and do not lower the bar to fill a seat quickly.\n\nAn empty seat is a short, visible cost. A poor hire is a long, hidden one that drains everyone around them.",
+          "action": "Write the three must-have qualities for the next role your team will need, even if none is open.",
+          "q": "Why avoid lowering the bar to fill a role quickly?",
+          "a": "A poor hire costs far more over time than an empty seat."
+        },
+        {
+          "id": "mm-6",
+          "title": "Everyone feels like an impostor at first",
+          "body": "Almost every new manager feels they do not know what they are doing. Zhuo describes that fear as close to universal.\n\nThe fix is not faking confidence. Name your weak spots, find peers and mentors who are good at them, and remember that your team needs you to be consistent far more than they need you to be perfect.",
+          "action": "Write down your weakest management skill and one person you could learn it from.",
+          "q": "How should a new manager handle feeling like an impostor?",
+          "a": "Accept it as normal, name weak spots, and learn from peers and mentors."
+        }
+      ]
+    },
+    {
+      "id": "turn-the-ship-around",
+      "title": "Turn the Ship Around!",
+      "author": "L. David Marquet",
+      "year": 2012,
+      "type": "book",
+      "focus": "influence",
+      "intro": "A submarine captain took the worst-performing crew in the fleet to the best by giving control away instead of taking it.",
+      "ideas": [
+        {
+          "id": "ts-1",
+          "title": "From followers to leaders",
+          "body": "In the traditional model, a few people think and many people execute. Marquet flipped it: give people control over decisions so that everyone thinks like a leader.\n\nThe result is a team that does not stall when the boss is out of the room, and that improves faster because far more minds are engaged in the work.",
+          "action": "Find one decision you usually make that a team member could own. Hand it over today.",
+          "q": "What is the leader-leader model?",
+          "a": "Distributing control so everyone acts as a leader, instead of a few leaders directing many followers."
+        },
+        {
+          "id": "ts-2",
+          "title": "Say “I intend to”",
+          "body": "Marquet's crew stopped saying “request permission to” and started saying “I intend to”, followed by what they planned and why. The captain simply replied “very well”.\n\nThe small change in language moved ownership to the person doing the work and forced them to think the decision through as if they were in charge.",
+          "action": "Use “I intend to…” for one request today, or invite a teammate to use it with you.",
+          "q": "What phrase replaces asking for permission in Marquet's model?",
+          "a": "“I intend to…”, with the plan and reasoning; the leader then approves."
+        },
+        {
+          "id": "ts-3",
+          "title": "Control needs competence and clarity",
+          "body": "Handing out control on its own causes chaos. It works when two supports are in place: competence, meaning people have the skill to decide well, and clarity, meaning they understand the goal and why it matters.\n\nBefore you delegate authority, check both. Invest in training, and repeat the why until everyone can say it in their own words.",
+          "action": "Pick an area to delegate. Rate the team's competence and clarity from 1 to 5, then fix the lower one first.",
+          "q": "What two pillars must support giving people control?",
+          "a": "Competence and clarity."
+        },
+        {
+          "id": "ts-4",
+          "title": "Move authority to the information",
+          "body": "In most organizations the information lives with the people closest to the work, while authority sits at the top. So decisions wait while data travels upward.\n\nMarquet's fix was to stop moving information up to authority and instead move authority down to where the information already is.",
+          "action": "Name one decision that waits on you even though someone closer to the work knows more. Push it down.",
+          "q": "Should information move to authority, or authority to information?",
+          "a": "Authority should move to where the information is."
+        },
+        {
+          "id": "ts-5",
+          "title": "Think out loud",
+          "body": "When people say what they see, what they plan and what worries them, the team can catch errors before they happen, and leaders can coach in the moment.\n\nMake thinking aloud a habit in reviews, planning and incidents. It turns hidden assumptions into shared understanding.",
+          "action": "In your next discussion, explain your reasoning out loud before you give a conclusion.",
+          "q": "Why encourage people to think out loud?",
+          "a": "It surfaces assumptions so others can catch mistakes early."
+        },
+        {
+          "id": "ts-6",
+          "title": "Certify, do not brief",
+          "body": "In a briefing, the leader talks and everyone else nods. In a certification, the people who will do the work explain the plan and answer questions about it.\n\nCertification shows whether people truly understand, and it puts the responsibility to prepare on them instead of letting them listen passively.",
+          "action": "Before your next kickoff, ask a teammate to explain the plan back to you.",
+          "q": "What does “certify, don't brief” mean?",
+          "a": "Have people explain the plan and answer questions instead of passively hearing a briefing."
+        }
+      ]
+    },
+    {
+      "id": "extreme-ownership",
+      "title": "Extreme Ownership",
+      "author": "Jocko Willink and Leif Babin",
+      "year": 2015,
+      "type": "book",
+      "focus": "teams",
+      "intro": "Two former Navy SEAL officers on why leaders must own every result, and how simple principles hold up under pressure.",
+      "ideas": [
+        {
+          "id": "eo-1",
+          "title": "Own everything in your world",
+          "body": "Leaders take full ownership of their team's results, including mistakes they did not directly cause. No blaming other teams, the market, or bad luck.\n\nWhen you own a failure, people follow your lead and own their part too. When you deflect, the whole team learns to deflect.",
+          "action": "Think of a recent failure. Write what you could have done differently, not what others should have done.",
+          "q": "What is extreme ownership?",
+          "a": "Taking full responsibility for every result in your world, including failures you did not directly cause."
+        },
+        {
+          "id": "eo-2",
+          "title": "What you tolerate becomes the standard",
+          "body": "The same team can struggle under one leader and excel under another. Performance is shaped less by talent than by what the leader accepts.\n\nIf sloppy work passes without comment, sloppy becomes the standard. Raising the bar, and holding it, is the leader's job.",
+          "action": "Find one standard your team lets slide. Decide to hold it, or drop it out loud.",
+          "q": "What becomes the standard on a team?",
+          "a": "Whatever the leader tolerates."
+        },
+        {
+          "id": "eo-3",
+          "title": "Prioritize and execute",
+          "body": "When everything goes wrong at once, do not try to fix it all. Step back, pick the most important problem, tell everyone clearly, put the team on it, then move to the next.\n\nCalm sequencing beats frantic multitasking under pressure. The leader's composure sets the team's.",
+          "action": "Next time you feel overwhelmed, list every open problem and circle the one that matters most.",
+          "q": "What should a leader do when several problems hit at once?",
+          "a": "Stay calm, pick the highest priority, execute it, then move to the next."
+        },
+        {
+          "id": "eo-4",
+          "title": "Simple plans survive",
+          "body": "Complex plans break under stress because people misunderstand them. Plans and instructions must be simple, clear and concise so everyone, not just the planner, can carry them out.\n\nIf team members cannot explain the plan back to you, it is too complicated.",
+          "action": "Rewrite your current project's goal in one sentence a new teammate would understand.",
+          "q": "Why must plans be simple?",
+          "a": "Complexity causes confusion under pressure; everyone must understand the plan to carry it out."
+        },
+        {
+          "id": "eo-5",
+          "title": "Lead through intent",
+          "body": "No leader can directly manage more than a handful of people. Junior leaders must understand the intent, the why behind the mission, well enough to make good decisions without asking.\n\nExplain the intent clearly, set the boundaries, then trust people to act inside them. The authors call this decentralized command.",
+          "action": "For one ongoing task, write its intent (goal and why) and share it with whoever does the work.",
+          "q": "What do team members need in order to act without orders?",
+          "a": "A clear understanding of the intent, the why behind the mission."
+        },
+        {
+          "id": "eo-6",
+          "title": "Cover and move",
+          "body": "Teams inside a larger team must support each other instead of competing. If one group wins at another's expense, the mission still fails.\n\nHelp the team next to you move forward. The overall goal matters more than your piece of it.",
+          "action": "Ask a neighboring team what is blocking them and offer one concrete bit of help.",
+          "q": "What does “cover and move” mean for teams?",
+          "a": "Teams support each other toward the shared goal instead of competing."
+        }
+      ]
+    },
+    {
+      "id": "five-dysfunctions",
+      "title": "The Five Dysfunctions of a Team",
+      "author": "Patrick Lencioni",
+      "year": 2002,
+      "type": "book",
+      "focus": "teams",
+      "intro": "A leadership fable that describes five problems that stack on top of each other and quietly ruin teams.",
+      "ideas": [
+        {
+          "id": "fd-1",
+          "title": "Trust means admitting weakness",
+          "body": "Lencioni arranges five dysfunctions as a pyramid, and the base is an absence of trust. He means vulnerability-based trust: people are comfortable saying “I was wrong”, “I need help” and “I don't know”.\n\nWithout it, everyone protects themselves instead of the team, and every layer above collapses.",
+          "action": "In your next team meeting, be the first to admit a mistake or a gap in your knowledge.",
+          "q": "What kind of trust does Lencioni mean?",
+          "a": "Vulnerability-based trust: being comfortable admitting mistakes and weaknesses."
+        },
+        {
+          "id": "fd-2",
+          "title": "Artificial harmony",
+          "body": "Teams that trust each other can argue about ideas with passion. Teams that fear conflict hold polite meetings where real concerns stay hidden, then surface later as hallway complaints.\n\nProductive conflict is about ideas, not people. It feels uncomfortable and leads to better decisions.",
+          "action": "In your next decision meeting, ask: what is the strongest argument against this?",
+          "q": "What is artificial harmony?",
+          "a": "Avoiding open disagreement so real concerns stay hidden."
+        },
+        {
+          "id": "fd-3",
+          "title": "No buy-in without debate",
+          "body": "People do not need to get their way to commit, but they do need to feel heard. When ideas are genuinely debated, people can commit even if they disagreed.\n\nWithout conflict, commitment is fake: people nod in the room and do not follow through. End every meeting by saying out loud what was decided.",
+          "action": "At the end of your next meeting, state the decisions and confirm everyone commits.",
+          "q": "Why does real commitment depend on conflict?",
+          "a": "People commit when they have been heard; without debate, agreement is shallow."
+        },
+        {
+          "id": "fd-4",
+          "title": "Peers hold peers accountable",
+          "body": "On strong teams, accountability is not only the leader's job. Peers call each other out when standards slip, because they committed to the same decisions.\n\nAvoiding these uncomfortable conversations lets mediocrity spread, and leaves all the pressure on the leader.",
+          "action": "Agree with one peer to tell each other directly when either of you misses a commitment.",
+          "q": "Who holds people accountable on high-performing teams?",
+          "a": "Peers hold each other accountable, not just the leader."
+        },
+        {
+          "id": "fd-5",
+          "title": "One scoreboard",
+          "body": "The top dysfunction is inattention to results: putting your ego, career or department ahead of the team's goals.\n\nThe antidote is a shared, visible scoreboard. When everyone measures success by the same few results, individual status matters less than collective wins.",
+          "action": "Write down the single team result that matters most this quarter. Check whether everyone knows it.",
+          "q": "What is the fifth dysfunction?",
+          "a": "Inattention to results: putting individual status ahead of collective goals."
+        }
+      ]
+    },
+    {
+      "id": "multipliers",
+      "title": "Multipliers",
+      "author": "Liz Wiseman",
+      "year": 2010,
+      "type": "book",
+      "focus": "influence",
+      "intro": "Why some leaders make everyone around them smarter, while others, often without meaning to, drain the intelligence from a room.",
+      "ideas": [
+        {
+          "id": "mu-1",
+          "title": "Multipliers and diminishers",
+          "body": "Some leaders make everyone around them smarter; others drain capability. Wiseman's research found that multipliers get far more out of the same people, often around twice as much.\n\nThe difference starts with a belief. Multipliers assume people are smart and will figure things out. Diminishers believe they must do the thinking, so everyone else holds back.",
+          "action": "In your next meeting, speak last. Notice which ideas appear when you hold back.",
+          "q": "What do multipliers assume about people?",
+          "a": "That they are smart and will figure things out."
+        },
+        {
+          "id": "mu-2",
+          "title": "Ask, don't tell",
+          "body": "Multipliers spark thinking with hard questions and stretch challenges instead of handing out answers.\n\nA good question puts the intellectual work back on the team. The answer they find is theirs, so they understand it better and own it more.",
+          "action": "Replace one answer you would normally give today with: what do you think we should do?",
+          "q": "How do multipliers create challenge?",
+          "a": "By asking hard questions and setting stretch goals instead of giving answers."
+        },
+        {
+          "id": "mu-3",
+          "title": "The accidental diminisher",
+          "body": "Well-meaning leaders often shrink people without noticing. The idea machine floods the room. The rescuer jumps in at the first sign of struggle. The rapid responder decides before anyone else has thought.\n\nYour strengths, overused, can silence the team.",
+          "action": "Pick one habit you might overuse (rescuing, idea-flooding, deciding fast) and pause it today.",
+          "q": "What is an accidental diminisher?",
+          "a": "A well-meaning leader whose habits unintentionally shut others down."
+        },
+        {
+          "id": "mu-4",
+          "title": "Debate, then decide",
+          "body": "Diminishers decide in small circles and announce. Multipliers frame the question, gather evidence and run a rigorous debate, so the team understands both the decision and the reasoning.\n\nPeople carry out decisions far better when they have wrestled with the problem themselves.",
+          "action": "For a pending decision, write down the question and invite two people with different views to argue it.",
+          "q": "How do multipliers make decisions?",
+          "a": "Through rigorous debate that builds understanding before deciding."
+        },
+        {
+          "id": "mu-5",
+          "title": "Hand the problem back",
+          "body": "When someone brings a problem, multipliers ask: what do you recommend? They stay available to coach but do not take the pen back.\n\nOwnership stays with the person closest to the work, and so does the learning.",
+          "action": "When someone brings you a problem today, ask what they recommend before giving your view.",
+          "q": "What should you do when someone brings you a problem?",
+          "a": "Ask what they recommend, and let them keep ownership."
+        },
+        {
+          "id": "mu-6",
+          "title": "Find native genius",
+          "body": "Multipliers attract talent because people grow fast around them. They spot each person's native genius, the thing they do brilliantly, easily and without being asked, and use it fully.\n\nTelling someone what their genius is can be one of the most energizing things a leader does.",
+          "action": "Write down the native genius of two colleagues. Tell them.",
+          "q": "What is native genius?",
+          "a": "Something a person does exceptionally well, easily and without being asked."
+        }
+      ]
+    },
+    {
+      "id": "thinking-in-bets",
+      "title": "Thinking in Bets",
+      "author": "Annie Duke",
+      "year": 2018,
+      "type": "book",
+      "focus": "decisions",
+      "intro": "A former professional poker player on making good decisions when you never have all the facts.",
+      "ideas": [
+        {
+          "id": "tb-1",
+          "title": "Don't judge a decision by its result",
+          "body": "Duke calls it resulting: judging the quality of a decision by how it turned out. Good decisions can end badly because of luck, and bad ones can work out.\n\nIf you only look at outcomes, you learn the wrong lessons. Judge decisions by the information and reasoning you had at the time.",
+          "action": "Review one recent outcome. Separate what was decision quality from what was luck.",
+          "q": "What is “resulting”?",
+          "a": "Judging the quality of a decision by its outcome instead of its process."
+        },
+        {
+          "id": "tb-2",
+          "title": "Say how sure you are",
+          "body": "“I'm 70% sure” is more honest than “I'm sure”. Putting a number on confidence makes uncertainty visible, invites others to share what they know, and makes it easier to change your mind.\n\nOver time, you can check your predictions and calibrate.",
+          "action": "Next time you predict something at work, add a percentage and write it down to check later.",
+          "q": "Why state confidence as a percentage?",
+          "a": "It reflects uncertainty honestly and makes beliefs easier to update."
+        },
+        {
+          "id": "tb-3",
+          "title": "Build a truth-seeking group",
+          "body": "We spot other people's biases far more easily than our own. A small group that agrees to challenge each other's reasoning is a powerful check.\n\nThe rules: reward accuracy over being right, welcome dissent, and stay open to being wrong.",
+          "action": "Ask a trusted colleague to poke holes in a decision you are about to make.",
+          "q": "How can a group help you decide better?",
+          "a": "By challenging your reasoning and rewarding accuracy over being right."
+        },
+        {
+          "id": "tb-4",
+          "title": "Run a premortem",
+          "body": "Before committing to a plan, imagine it is a year later and the plan failed. Ask: what went wrong?\n\nWorking backward from failure surfaces risks that optimism hides, and makes it safe for people to voice doubts. The technique was popularized by psychologist Gary Klein.",
+          "action": "Run a ten-minute premortem on your current project: list five reasons it could fail.",
+          "q": "What is a premortem?",
+          "a": "Imagining a plan has failed and working backward to find why."
+        }
+      ]
+    },
+    {
+      "id": "bezos-letters",
+      "title": "Amazon shareholder letters",
+      "author": "Jeff Bezos",
+      "year": 2016,
+      "type": "letters",
+      "focus": "decisions",
+      "intro": "Annual letters that lay out how Amazon tries to keep making fast, high-quality decisions as it grows.",
+      "ideas": [
+        {
+          "id": "bz-1",
+          "title": "One-way and two-way doors",
+          "body": "Some decisions are irreversible: one-way doors that deserve slow, careful thought. Most are two-way doors. If you are wrong, you can walk back through.\n\nTreating every decision like a one-way door makes an organization slow. Decide reversible things quickly, and save deliberation for what cannot be undone.",
+          "action": "Look at a decision you are stuck on. If it is reversible, decide today.",
+          "q": "How should you treat two-way-door decisions?",
+          "a": "Make them quickly; they are reversible, so speed beats perfection."
+        },
+        {
+          "id": "bz-2",
+          "title": "Decide at about 70%",
+          "body": "Most decisions can be made with about seventy percent of the information you wish you had. Waiting for ninety usually means you are too slow.\n\nIf you are good at noticing and correcting bad decisions, being wrong costs less than being slow.",
+          "action": "Pick one decision waiting on “more data”. Write what you would do with what you know now.",
+          "q": "How much of the information you want do you usually need, per Bezos?",
+          "a": "About 70%."
+        },
+        {
+          "id": "bz-3",
+          "title": "Disagree and commit",
+          "body": "When there is no consensus, you can say: I disagree, but I will commit fully. It saves time and lets work move.\n\nIt works both ways; a leader can commit to a team's plan they doubt. The commitment has to be real, not quiet resistance.",
+          "action": "Next time you lose a debate, say out loud that you will commit, then back it fully.",
+          "q": "What does “disagree and commit” mean?",
+          "a": "Voicing disagreement, then fully supporting the decision so work can move."
+        },
+        {
+          "id": "bz-4",
+          "title": "Resist proxies",
+          "body": "Processes and metrics are stand-ins for what you really care about, such as customers and quality. Over time it is easy to start serving the stand-in: following the process instead of checking the result.\n\nAsk regularly whether you own the process or the process owns you.",
+          "action": "Pick one metric or process you follow. Ask whether it still measures what you actually care about.",
+          "q": "What is the danger of proxies?",
+          "a": "You start optimizing the process or metric instead of the real goal."
+        },
+        {
+          "id": "bz-5",
+          "title": "Write narratives, not slides",
+          "body": "Amazon's senior meetings famously start with everyone silently reading a written memo instead of watching slides.\n\nFull sentences force connected, clear thinking. Bullet points let gaps in logic hide. Writing is a test of whether you actually understand your own idea.",
+          "action": "Before your next proposal, write it as one page of prose before making any slides.",
+          "q": "Why use written narratives instead of slides?",
+          "a": "Full sentences force clear, connected thinking that bullets can hide."
+        }
+      ]
+    },
+    {
+      "id": "fearless-organization",
+      "title": "The Fearless Organization",
+      "author": "Amy Edmondson",
+      "year": 2018,
+      "type": "book",
+      "focus": "teams",
+      "intro": "The Harvard researcher behind psychological safety explains why speaking up is the engine of learning teams.",
+      "ideas": [
+        {
+          "id": "fo-1",
+          "title": "Psychological safety",
+          "body": "Psychological safety is a shared belief that you will not be punished or humiliated for speaking up with ideas, questions, concerns or mistakes.\n\nEdmondson found it is what lets teams learn. Google's Project Aristotle later named it the most important factor in its effective teams. It is not about being nice; it is about candor being safe.",
+          "action": "Notice the next time someone hesitates to speak. Invite them in by name.",
+          "q": "What is psychological safety?",
+          "a": "The shared belief that it is safe to speak up with ideas, questions, concerns or mistakes."
+        },
+        {
+          "id": "fo-2",
+          "title": "Frame work as learning",
+          "body": "When leaders present work as pure execution, just follow the plan, people stay quiet about problems.\n\nFraming it as new and uncertain, we have never done this and we need everyone's eyes, makes speaking up part of the job instead of a risk.",
+          "action": "Open your next project discussion by naming what is uncertain and asking for help spotting problems.",
+          "q": "How does framing the work affect speaking up?",
+          "a": "Framing it as a learning problem with uncertainty invites people to raise issues."
+        },
+        {
+          "id": "fo-3",
+          "title": "Thank the messenger",
+          "body": "The moment someone brings you bad news or admits a mistake decides whether they will ever do it again.\n\nThank them, focus on what to do next, and hold back blame. Your reaction in that moment teaches the whole team what is safe.",
+          "action": "Next time you get bad news, say “thanks for telling me” before anything else.",
+          "q": "What should your first response to bad news be?",
+          "a": "Appreciation for raising it, then focus on next steps, not blame."
+        },
+        {
+          "id": "fo-4",
+          "title": "Ask questions you can't answer",
+          "body": "Leaders invite participation by asking genuine questions: ones they do not already know the answer to. What are we missing? What would you do?\n\nShowing curiosity and admitting your own fallibility makes others far more willing to speak.",
+          "action": "Ask “what am I missing?” at least once today, and wait for the answer.",
+          "q": "What kind of questions invite participation?",
+          "a": "Genuine, open questions the leader does not already know the answer to."
+        },
+        {
+          "id": "fo-5",
+          "title": "Safety is not low standards",
+          "body": "Psychological safety and high standards are not opposites. High safety with low standards gives a comfortable team. Low safety with high standards gives an anxious one.\n\nThe learning zone needs both: people feel safe to speak, and they are held to a high bar.",
+          "action": "Rate your team on safety and on standards, 1 to 5. Which one needs work?",
+          "q": "What zone do high safety and high standards create?",
+          "a": "The learning zone."
+        }
+      ]
+    },
+    {
+      "id": "high-output-management",
+      "title": "High Output Management",
+      "author": "Andy Grove",
+      "year": 1983,
+      "type": "book",
+      "focus": "management",
+      "intro": "Intel's legendary CEO treats management like engineering: a production system with outputs, leverage and feedback loops.",
+      "ideas": [
+        {
+          "id": "ho-1",
+          "title": "Your output is your team's output",
+          "body": "Grove's formula: a manager's output equals the output of their team, plus the output of neighboring teams they influence.\n\nYour own individual work only counts through its effect on others. That is why a manager's time is best spent on high-leverage activities.",
+          "action": "List today's activities. Mark the ones that affect many people's output.",
+          "q": "What is a manager's output, according to Grove?",
+          "a": "The output of their team plus neighboring teams they influence."
+        },
+        {
+          "id": "ho-2",
+          "title": "Find the leverage",
+          "body": "Leverage is the output you create per unit of your time. A five-minute piece of advice that saves a team a week, a clear decision that unblocks ten people, or a session that trains many: all high leverage.\n\nSitting in meetings where you add nothing is low leverage, however busy it feels.",
+          "action": "Find one activity this week that could save others more time than it costs you.",
+          "q": "What is leverage in management?",
+          "a": "The output generated per unit of a manager's time or activity."
+        },
+        {
+          "id": "ho-3",
+          "title": "Task-relevant maturity",
+          "body": "How you manage someone should depend on their experience with the specific task, not their seniority.\n\nLow task maturity needs structure and detailed guidance. Medium needs support and two-way discussion. High needs only goals and light monitoring. The same person can sit at different levels on different tasks.",
+          "action": "For one teammate, rate their maturity on their current task and adjust how closely you guide them.",
+          "q": "What should determine your management style for a task, per Grove?",
+          "a": "The person's task-relevant maturity: their experience with that specific task."
+        },
+        {
+          "id": "ho-4",
+          "title": "Pair your indicators",
+          "body": "Every metric has a side effect. Measure speed and quality drops. Measure cost and service suffers.\n\nGrove's answer is to pair indicators that balance each other, such as volume with error rate, so optimizing one cannot quietly ruin the other.",
+          "action": "Pick one metric you track. What paired metric would catch its bad side effect?",
+          "q": "Why should indicators be paired?",
+          "a": "To prevent optimizing one measure at the expense of another."
+        },
+        {
+          "id": "ho-5",
+          "title": "Catch problems at the cheapest stage",
+          "body": "In a factory, it is cheapest to catch a defect before more work is added to it. Knowledge work is the same.\n\nReview the plan before the build, the design before the code, the outline before the document. Put inspection where fixing is still cheap.",
+          "action": "For your current work, find the earliest point you could get feedback, and get it there.",
+          "q": "Where should problems be caught?",
+          "a": "At the lowest-value stage, before more work is invested."
+        }
+      ]
+    }
+  ]
+}

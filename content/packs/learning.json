@@ -1,0 +1,491 @@
+{
+  "id": "learning",
+  "name": "Learning",
+  "version": 1,
+  "added": "2026-11-06",
+  "sources": [
+    {
+      "id": "make-it-stick",
+      "title": "Make It Stick",
+      "author": "Peter Brown, Henry Roediger and Mark McDaniel",
+      "year": 2014,
+      "type": "book",
+      "focus": "learning-science",
+      "intro": "Cognitive scientists show why the study habits that feel productive are often the weakest, and what works instead.",
+      "ideas": [
+        {
+          "id": "ms-1",
+          "title": "Pull it out, don't pour it in",
+          "body": "Recalling something from memory strengthens it far more than reading it again. Self-testing, flashcards and explaining from memory feel harder than rereading, but they produce much better long-term retention.\n\nThe effort of retrieval is what does the work. If recall feels easy, it is probably not building much.",
+          "action": "After reading something today, close it and write the three key points from memory.",
+          "q": "Why is retrieval practice better than rereading?",
+          "a": "Recalling information strengthens memory far more than re-exposure does."
+        },
+        {
+          "id": "ms-2",
+          "title": "Familiar is not the same as known",
+          "body": "Rereading and highlighting make material feel familiar, and we mistake that ease for mastery. The authors call it the illusion of fluency.\n\nThe real test is whether you can produce the idea with the text closed. Feeling fluent and being able to recall are two very different things.",
+          "action": "Pick a topic you think you know. Explain it on paper without notes, and mark where you get stuck.",
+          "q": "What is the illusion of fluency?",
+          "a": "Mistaking familiarity with material, often from rereading, for actually knowing it."
+        },
+        {
+          "id": "ms-3",
+          "title": "Let a little forgetting happen",
+          "body": "Practice spread over days beats cramming in one sitting. When you let some forgetting happen between sessions, the next recall takes more effort, and that effort makes the memory stronger.\n\nCramming feels productive because the information is fresh, but it fades fast.",
+          "action": "Schedule a five-minute review of something you learned this week, three days from now.",
+          "q": "Why does spacing out practice work?",
+          "a": "Some forgetting makes recall effortful, and that effort strengthens memory."
+        },
+        {
+          "id": "ms-4",
+          "title": "Mix it up",
+          "body": "Practicing one type of problem in a block, AAABBBCCC, feels efficient. Mixing types, ABCBCA, feels slower and messier.\n\nYet interleaving produces better learning, because it trains the skill you need in real life: recognizing which approach a problem calls for.",
+          "action": "In your next practice session, mix two or three problem types instead of doing them in blocks.",
+          "q": "What is interleaving?",
+          "a": "Mixing different types of problems or topics in practice instead of blocking them."
+        },
+        {
+          "id": "ms-5",
+          "title": "Desirable difficulties",
+          "body": "Learning that feels easy is often shallow. Difficulties that demand effort, such as recalling, spacing and attempting an answer before seeing it, slow you down but make knowledge durable and flexible.\n\nIf learning feels hard but doable, you are probably doing it right.",
+          "action": "Before reading the solution to a problem today, attempt it yourself first.",
+          "q": "What are desirable difficulties?",
+          "a": "Effortful learning challenges that slow you down but improve long-term retention."
+        },
+        {
+          "id": "ms-6",
+          "title": "Hang new ideas on old hooks",
+          "body": "Explaining new material in your own words and connecting it to what you already know gives it more hooks in memory.\n\nAsk how it relates to something you have experienced, and where you would use it. This is called elaboration, and the more connections you make, the easier recall becomes.",
+          "action": "Take one idea from today and write how it connects to a problem you faced at work.",
+          "q": "What is elaboration?",
+          "a": "Explaining new material in your own words and linking it to what you already know."
+        }
+      ]
+    },
+    {
+      "id": "mind-for-numbers",
+      "title": "A Mind for Numbers",
+      "author": "Barbara Oakley",
+      "year": 2014,
+      "type": "book",
+      "focus": "learning-science",
+      "intro": "The engineering professor behind the hugely popular Learning How to Learn course on how the brain actually picks up hard subjects.",
+      "ideas": [
+        {
+          "id": "ol-1",
+          "title": "Focused mode, diffuse mode",
+          "body": "Your brain works in two modes. Focused mode is concentrated attention on a problem. Diffuse mode is relaxed, wandering thought that links distant ideas, and it runs during walks, showers and sleep.\n\nHard problems need both: work intensely, then step away and let the diffuse mode do its part.",
+          "action": "Stuck on something? Work on it hard for 25 minutes, then walk for ten without your phone.",
+          "q": "What are Oakley's two modes of thinking?",
+          "a": "Focused mode (concentrated) and diffuse mode (relaxed, connecting)."
+        },
+        {
+          "id": "ol-2",
+          "title": "Experts think in chunks",
+          "body": "Experts do not hold more in working memory; they compress knowledge into chunks, tightly connected patterns that fit as a single unit.\n\nYou build a chunk by understanding the core idea, practicing it until it is fluent, and seeing where it applies. Each chunk frees space for higher-level thinking.",
+          "action": "Pick one concept you use often and practice it until you can apply it without looking anything up.",
+          "q": "What is a chunk?",
+          "a": "A compact, connected pattern of knowledge that works as a single unit in memory."
+        },
+        {
+          "id": "ol-3",
+          "title": "Process, not product",
+          "body": "Procrastination is triggered by the small pain of starting. Instead of committing to a product, finish the report, commit to a process: 25 minutes of focused work.\n\nThat is the Pomodoro technique. A short, timed block lowers the barrier to starting, and starting is most of the battle.",
+          "action": "Set a 25-minute timer for the task you are avoiding. Work only until it rings.",
+          "q": "How does the Pomodoro technique help with procrastination?",
+          "a": "It shifts focus from finishing (product) to a short block of work (process)."
+        },
+        {
+          "id": "ol-4",
+          "title": "Sleep is part of studying",
+          "body": "During sleep, the brain consolidates what you learned and clears out metabolic waste. Reviewing something before bed, then recalling it the next day, is a powerful combination.\n\nAll-nighters do not just make you tired; they actively harm learning.",
+          "action": "Review the most important idea of your day for two minutes before sleeping tonight.",
+          "q": "What role does sleep play in learning?",
+          "a": "It consolidates memories and strengthens what you learned."
+        },
+        {
+          "id": "ol-5",
+          "title": "When your first idea blocks the best one",
+          "body": "Einstellung is when an idea you already have prevents you from seeing a better one. Your first approach to a problem can trap you.\n\nStep back, list other approaches, and talk to someone with a different background. Fresh eyes break the spell.",
+          "action": "For a problem you are solving, list two approaches different from your first instinct.",
+          "q": "What is the Einstellung effect?",
+          "a": "When an existing idea or approach blocks you from seeing a better one."
+        }
+      ]
+    },
+    {
+      "id": "peak",
+      "title": "Peak",
+      "author": "Anders Ericsson and Robert Pool",
+      "year": 2016,
+      "type": "book",
+      "focus": "practice",
+      "intro": "The scientist who studied expert performance for decades explains how deliberate practice, not talent, builds mastery.",
+      "ideas": [
+        {
+          "id": "pk-1",
+          "title": "Experience is not expertise",
+          "body": "Years on the job do not make you an expert. Many professionals reach acceptable and then plateau.\n\nImprovement comes from deliberate practice: focused effort on specific weaknesses, just beyond your current ability, with quick feedback. Without that, experience is mostly repetition.",
+          "action": "Name a skill you use daily but have not improved in a year. Write one specific weakness in it.",
+          "q": "Why doesn't experience alone create expertise?",
+          "a": "Without deliberate practice on weaknesses with feedback, people plateau."
+        },
+        {
+          "id": "pk-2",
+          "title": "Four parts of purposeful practice",
+          "body": "Practice that improves you has well-defined goals, full focus, feedback, and pushes you out of your comfort zone.\n\n“Get better at system design” is not a goal. “Explain how to shard this database and its trade-offs in five minutes” is.",
+          "action": "Turn one vague learning goal into a specific, measurable practice goal for this week.",
+          "q": "What are the elements of purposeful practice?",
+          "a": "Specific goals, focus, feedback, and pushing beyond the comfort zone."
+        },
+        {
+          "id": "pk-3",
+          "title": "Experts see more",
+          "body": "What separates experts is rich mental representations: detailed internal models of their field that let them see patterns, predict outcomes and spot errors quickly.\n\nPractice builds these models, and better models make further practice more effective. It is a flywheel.",
+          "action": "Draw a system you work on from memory. Compare it with the real thing.",
+          "q": "What are mental representations?",
+          "a": "Detailed internal models of a domain that let experts spot patterns and predict outcomes."
+        },
+        {
+          "id": "pk-4",
+          "title": "The 10,000-hour myth",
+          "body": "Ericsson's research was popularized as “10,000 hours makes you an expert”, but there is nothing magic about the number.\n\nWhat matters is the kind of practice. Ten thousand comfortable hours will not get you there; far fewer hours of deliberate practice can.",
+          "action": "Estimate how much of your weekly practice actually pushes your limits.",
+          "q": "What is wrong with the 10,000-hour rule?",
+          "a": "The quality of practice matters more than the number of hours."
+        },
+        {
+          "id": "pk-5",
+          "title": "Build your own feedback loop",
+          "body": "Feedback is essential, and a good coach gives it along with exercises aimed at your weaknesses.\n\nWithout a coach, build your own loop: record yourself, compare your work with expert work, and ask someone stronger than you to review it.",
+          "action": "Ask someone more experienced to review a piece of your work and focus on one weakness.",
+          "q": "What should you do if you have no coach?",
+          "a": "Create feedback: compare with experts, record yourself, ask for reviews."
+        }
+      ]
+    },
+    {
+      "id": "deep-work",
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "year": 2016,
+      "type": "book",
+      "focus": "focus",
+      "intro": "A computer science professor argues that the ability to focus without distraction is becoming rare and valuable at the same time.",
+      "ideas": [
+        {
+          "id": "dw-1",
+          "title": "Depth is a superpower",
+          "body": "Deep work is focused, uninterrupted effort that pushes your thinking to its limit. It is getting rarer as distractions multiply, and more valuable as work gets more complex.\n\nPeople who can do it produce better work in less time, and learn hard things faster.",
+          "action": "Block 90 distraction-free minutes tomorrow for your hardest task.",
+          "q": "What is deep work?",
+          "a": "Focused, distraction-free effort that pushes your thinking to its limit."
+        },
+        {
+          "id": "dw-2",
+          "title": "Attention residue",
+          "body": "When you switch tasks, even for a quick email check, part of your attention stays stuck on the previous task. That residue lowers your performance on the next one.\n\nBatching shallow tasks and avoiding quick checks keeps your attention whole.",
+          "action": "Today, check messages only at three fixed times.",
+          "q": "What is attention residue?",
+          "a": "Part of your attention lingering on a previous task after switching, reducing performance."
+        },
+        {
+          "id": "dw-3",
+          "title": "Give every hour a job",
+          "body": "Plan your workday in blocks, so every part of it has a purpose. When interruptions come, and they will, simply re-plan the rest of the day.\n\nTime-blocking is not about rigidity. It is about deciding deliberately instead of reacting to whatever arrives.",
+          "action": "Before work tomorrow, sketch your day in blocks on paper.",
+          "q": "What is the purpose of time-blocking?",
+          "a": "To decide deliberately how to spend each part of the day instead of reacting."
+        },
+        {
+          "id": "dw-4",
+          "title": "Shut down on purpose",
+          "body": "End each workday with a fixed routine: review open tasks, capture them, plan tomorrow's first step, then stop.\n\nThe ritual closes open loops so your mind can actually rest, and rest is what recharges your ability to focus tomorrow.",
+          "action": "Tonight, write down every open task and tomorrow's first step, then stop working.",
+          "q": "Why use a shutdown ritual?",
+          "a": "It closes open loops so your mind can rest and recharge."
+        },
+        {
+          "id": "dw-5",
+          "title": "Practice being bored",
+          "body": "If you reach for your phone every time you are bored, you train your brain to expect constant novelty, and your focus weakens.\n\nTolerating boredom, waiting in line without a screen for instance, strengthens your concentration like a muscle.",
+          "action": "The next time you are waiting today, leave your phone in your pocket.",
+          "q": "Why should you embrace boredom?",
+          "a": "Constantly avoiding it trains the brain to need distraction, weakening focus."
+        },
+        {
+          "id": "dw-6",
+          "title": "Pick your depth rhythm",
+          "body": "Newport describes several ways to fit in deep work. Monastic: remove most shallow work. Bimodal: dedicate whole days or seasons. Rhythmic: the same time every day, as a habit. Journalistic: fit it in whenever you can.\n\nThe rhythmic approach suits most people with meetings and teams.",
+          "action": "Choose the depth rhythm that fits your job and schedule this week around it.",
+          "q": "What is the rhythmic philosophy of deep work?",
+          "a": "Doing deep work at the same time every day, as a habit."
+        }
+      ]
+    },
+    {
+      "id": "atomic-habits",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "year": 2018,
+      "type": "book",
+      "focus": "habits",
+      "intro": "A practical system for building good habits and breaking bad ones through tiny changes that compound.",
+      "ideas": [
+        {
+          "id": "ah-1",
+          "title": "One percent compounds",
+          "body": "Getting one percent better each day looks trivial, but compounded over a year it is a huge change. Habits are the compound interest of self-improvement.\n\nThe results lag behind the effort, which is why people quit just before the curve bends upward.",
+          "action": "Choose one tiny daily improvement in your craft you can start today.",
+          "q": "Why do small habits matter so much?",
+          "a": "Their effects compound over time into large results."
+        },
+        {
+          "id": "ah-2",
+          "title": "Every action is a vote",
+          "body": "Instead of goal-based habits, I want to read more, focus on who you want to become: I am a reader.\n\nEach action is a vote for a type of person. Lasting change comes from shifting your identity, not just chasing outcomes.",
+          "action": "Finish this sentence: I am the type of engineer or leader who… Then do one thing that proves it.",
+          "q": "What are identity-based habits?",
+          "a": "Habits built around who you want to become, where each action is a vote for that identity."
+        },
+        {
+          "id": "ah-3",
+          "title": "Four laws of behavior change",
+          "body": "To build a habit, make it obvious, attractive, easy and satisfying.\n\nTo break one, invert the laws: make it invisible, unattractive, difficult and unsatisfying. Most failed habits break one of these four.",
+          "action": "Pick a habit you want. Apply one of the four laws to it today.",
+          "q": "What are the four laws of behavior change?",
+          "a": "Make it obvious, attractive, easy and satisfying."
+        },
+        {
+          "id": "ah-4",
+          "title": "Stack it on a habit you already have",
+          "body": "Link a new habit to something you already do every day: after I pour my morning coffee, I will read one idea.\n\nThe existing habit becomes a reliable trigger for the new one. Clear calls this habit stacking.",
+          "action": "Write one habit stack: after I [current habit], I will [new habit].",
+          "q": "What is habit stacking?",
+          "a": "Linking a new habit to an existing one so the old habit cues the new one."
+        },
+        {
+          "id": "ah-5",
+          "title": "The two-minute rule",
+          "body": "Scale any new habit down to a version that takes two minutes. Read one page. Write one sentence. Open the editor.\n\nYou have to master showing up before you can optimize. You cannot improve a habit that does not exist yet.",
+          "action": "Shrink one habit you have been struggling with to a two-minute version, and do it now.",
+          "q": "What is the two-minute rule?",
+          "a": "Start a new habit with a version that takes two minutes or less."
+        },
+        {
+          "id": "ah-6",
+          "title": "Never miss twice",
+          "body": "Missing once is an accident. Missing twice is the start of a new habit.\n\nWhen life gets in the way, get back on track immediately, even with a tiny version. All-or-nothing thinking is what actually breaks streaks.",
+          "action": "If you missed a habit yesterday, do the smallest possible version of it today.",
+          "q": "What does “never miss twice” mean?",
+          "a": "Missing once is fine; return immediately so a lapse does not become a pattern."
+        },
+        {
+          "id": "ah-7",
+          "title": "Design the room, not the willpower",
+          "body": "Environment shapes behavior more than motivation does. Put cues for good habits in plain sight, like a book on your pillow, and add friction to bad ones, like your phone in another room.\n\nMake the right choice the easy one.",
+          "action": "Change one thing in your workspace today to make a good habit easier.",
+          "q": "Why design your environment?",
+          "a": "Visible cues and less friction make good habits easier than relying on motivation."
+        }
+      ]
+    },
+    {
+      "id": "ultralearning",
+      "title": "Ultralearning",
+      "author": "Scott H. Young",
+      "year": 2019,
+      "type": "book",
+      "focus": "practice",
+      "intro": "Principles from people who taught themselves hard skills fast, from MIT's curriculum to new languages in a year.",
+      "ideas": [
+        {
+          "id": "ul-1",
+          "title": "Map before you march",
+          "body": "Before you start learning something, spend around ten percent of your time researching how to learn it: which concepts, facts and procedures it involves, how others learned it, and which resources are best.\n\nYoung calls this metalearning. A good map can save weeks.",
+          "action": "For a skill you want to learn, list the concepts, facts and procedures it requires.",
+          "q": "What is metalearning?",
+          "a": "Researching how to learn a subject before diving in, mapping what it requires."
+        },
+        {
+          "id": "ul-2",
+          "title": "Practice the real thing",
+          "body": "The closer your practice is to how you will actually use a skill, the better it transfers. Want to design systems? Design one. Want to give talks? Give one.\n\nYoung calls this directness. Abstract study on its own transfers poorly.",
+          "action": "Find one way to practice your target skill in a realistic setting this week.",
+          "q": "What is the principle of directness?",
+          "a": "Learning by doing the actual skill in a context close to where you will use it."
+        },
+        {
+          "id": "ul-3",
+          "title": "Drill the weakest link",
+          "body": "Complex skills are made of parts. Find the part that limits you most, isolate it and drill it, then put it back into the whole skill.\n\nIt is like a musician practicing only the hardest bars of a song until they are as smooth as the rest.",
+          "action": "Identify the weakest sub-skill in something you do and practice only that for 15 minutes.",
+          "q": "What does drilling mean in ultralearning?",
+          "a": "Isolating and practicing the weakest part of a complex skill."
+        },
+        {
+          "id": "ul-4",
+          "title": "The Feynman technique",
+          "body": "To check your understanding, explain the concept simply, as if teaching someone new to the subject.\n\nWherever your explanation turns vague or leans on jargon, you have found a gap. Go back, learn that piece, and simplify again.",
+          "action": "Explain one technical concept from your work in plain language, in writing, to an imagined beginner.",
+          "q": "How does the Feynman technique reveal gaps?",
+          "a": "Explaining simply exposes where you rely on jargon or vague understanding."
+        },
+        {
+          "id": "ul-5",
+          "title": "Copy, compare, then create",
+          "body": "Once you have the basics, mastery comes from experiments: trying new resources, techniques and styles.\n\nA useful progression is to copy what works, compare different approaches, then create something that is your own.",
+          "action": "Try a different approach for a task you always do the same way.",
+          "q": "When does experimentation matter most in learning?",
+          "a": "After the basics, to push toward mastery and develop your own style."
+        }
+      ]
+    },
+    {
+      "id": "mental-models",
+      "title": "Mental models",
+      "author": "Charlie Munger and Farnam Street",
+      "year": 2015,
+      "type": "concept",
+      "focus": "thinking",
+      "intro": "A toolkit of thinking patterns borrowed from many fields, championed by Charlie Munger and collected by Farnam Street.",
+      "ideas": [
+        {
+          "id": "mo-1",
+          "title": "The map is not the territory",
+          "body": "Every model, plan, metric and dashboard simplifies reality. That is what makes them useful, and also what makes them incomplete.\n\nWhen the map and the territory disagree, trust the territory. Go and look at what is actually happening.",
+          "action": "Check one assumption today against the real data, code or customer, not a summary.",
+          "q": "What does “the map is not the territory” mean?",
+          "a": "Models simplify reality; when they disagree with what is real, trust reality."
+        },
+        {
+          "id": "mo-2",
+          "title": "Know the edge of your circle",
+          "body": "Your circle of competence is the area where you truly understand things deeply. Inside it you have an edge; outside it you are open to expensive mistakes.\n\nThe size of the circle matters less than knowing exactly where its edge is.",
+          "action": "List three areas where you are truly competent, and one where you act confident but are not.",
+          "q": "What matters most about your circle of competence?",
+          "a": "Knowing exactly where its boundaries are."
+        },
+        {
+          "id": "mo-3",
+          "title": "Reason from first principles",
+          "body": "Break a problem down to what you know is fundamentally true, then reason up from there, instead of copying how it is usually done.\n\nIt is slower than reasoning by analogy, but it reveals options that copying never will.",
+          "action": "For a current problem, list what is fundamentally true versus what is assumed.",
+          "q": "What is first principles thinking?",
+          "a": "Breaking a problem into fundamental truths and reasoning up from them."
+        },
+        {
+          "id": "mo-4",
+          "title": "And then what?",
+          "body": "First-order thinking looks at the immediate result. Second-order thinking asks what happens next, and after that.\n\nMany decisions that look good today create problems later, and some that look costly today pay off. Asking “and then what?” finds them.",
+          "action": "For one decision today, ask “and then what?” three times.",
+          "q": "What is second-order thinking?",
+          "a": "Considering the consequences of the consequences, not just immediate effects."
+        },
+        {
+          "id": "mo-5",
+          "title": "Invert",
+          "body": "Instead of asking how to succeed, ask how you would guarantee failure, then avoid those things. Munger often credited the mathematician Jacobi for the habit.\n\nInversion exposes obstacles that forward thinking skips over.",
+          "action": "Write three ways to make your current project fail. Check you are not doing any of them.",
+          "q": "What is inversion?",
+          "a": "Thinking about how to fail, then avoiding those causes."
+        },
+        {
+          "id": "mo-6",
+          "title": "Hanlon's razor",
+          "body": "Do not explain with bad intent what can be explained by a mistake, missing context or overload.\n\nAssuming malice damages relationships, and it is usually wrong. Most frustrating behavior at work has a boring explanation.",
+          "action": "Next time someone frustrates you, write two non-malicious explanations before responding.",
+          "q": "What is Hanlon's razor?",
+          "a": "Don't assume malice when mistakes, missing context or overload can explain it."
+        }
+      ]
+    },
+    {
+      "id": "smart-notes",
+      "title": "How to Take Smart Notes",
+      "author": "Sönke Ahrens",
+      "year": 2017,
+      "type": "book",
+      "focus": "notes",
+      "intro": "How a simple note-taking system turns reading into a growing body of your own ideas.",
+      "ideas": [
+        {
+          "id": "sn-1",
+          "title": "Writing is thinking",
+          "body": "Writing is not what you do after the thinking is done; it is how the thinking happens.\n\nIdeas you cannot write down clearly are not clear yet. Make writing part of how you learn, not just how you report.",
+          "action": "Write one paragraph today explaining something you learned, as if to a colleague.",
+          "q": "How does Ahrens describe the role of writing?",
+          "a": "Writing is the medium of thinking, not just a record of it."
+        },
+        {
+          "id": "sn-2",
+          "title": "Highlights are not notes",
+          "body": "Copying quotes and highlighting passages creates an illusion of learning. Rewriting an idea in your own words forces you to understand it, and makes it yours.\n\nIf you cannot paraphrase it, you do not understand it yet.",
+          "action": "Pick one highlight you saved recently and rewrite it in your own words.",
+          "q": "Why write notes in your own words?",
+          "a": "It forces understanding instead of passive copying."
+        },
+        {
+          "id": "sn-3",
+          "title": "One idea per note, linked",
+          "body": "Keep each note to a single idea, written so it makes sense on its own, then link it to related notes.\n\nOver time the links form a web that surfaces unexpected connections. This is the core of the Zettelkasten method.",
+          "action": "Write one note with a single idea and link it to one older note.",
+          "q": "What is the key structure of Zettelkasten notes?",
+          "a": "One self-contained idea per note, linked to related notes."
+        },
+        {
+          "id": "sn-4",
+          "title": "Read with a pen",
+          "body": "Reading without notes is mostly forgotten. Take brief notes while you read, then turn the best ones into lasting notes connected to your own thinking.\n\nThe goal is not a pile of summaries but a body of insight you can reuse.",
+          "action": "After reading today, write one note about what changed in your thinking.",
+          "q": "What happens to most reading done without notes?",
+          "a": "Most of it is forgotten."
+        }
+      ]
+    },
+    {
+      "id": "mindset",
+      "title": "Mindset",
+      "author": "Carol Dweck",
+      "year": 2006,
+      "type": "book",
+      "focus": "thinking",
+      "intro": "A Stanford psychologist on how your beliefs about ability shape whether you seek challenges or avoid them.",
+      "ideas": [
+        {
+          "id": "md-1",
+          "title": "Fixed or growth",
+          "body": "With a fixed mindset, you believe ability is innate, so failure proves you lack it. With a growth mindset, you believe ability develops through effort and good strategies, so failure is information.\n\nYour mindset shapes whether you chase hard problems or quietly avoid them.",
+          "action": "Notice one moment today where you think “I'm not good at this”. Add “yet”.",
+          "q": "What is the core belief of a growth mindset?",
+          "a": "Abilities can be developed through effort, strategy and learning."
+        },
+        {
+          "id": "md-2",
+          "title": "The power of yet",
+          "body": "“I can't design distributed systems” becomes “I can't design distributed systems yet”.\n\nThe extra word turns a gap into a stage on a path. It keeps you working instead of quitting.",
+          "action": "Rewrite one limiting statement about yourself using “yet”.",
+          "q": "What does adding “yet” do?",
+          "a": "It reframes a skill gap as temporary and part of a learning path."
+        },
+        {
+          "id": "md-3",
+          "title": "Praise the process",
+          "body": "Praising intelligence, you're so smart, teaches people to avoid challenges that might disprove it. Praising effort, strategy and progress teaches them to take on harder problems.\n\nThis matters as much when leading a team as when raising children.",
+          "action": "When you praise someone today, praise their approach or effort, not their talent.",
+          "q": "Why praise process instead of talent?",
+          "a": "Talent praise makes people avoid challenges; process praise encourages growth."
+        },
+        {
+          "id": "md-4",
+          "title": "Effort alone isn't growth",
+          "body": "A growth mindset is not just trying harder. If an approach is not working, more effort on the same thing will not help.\n\nLook for new strategies, ask others for input, and change how you learn. Growth needs effort plus better methods.",
+          "action": "If you are stuck on something, ask someone how they would approach it differently.",
+          "q": "Is effort alone a growth mindset?",
+          "a": "No. It also requires trying new strategies and seeking input."
+        }
+      ]
+    }
+  ]
+}

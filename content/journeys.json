@@ -1,0 +1,92 @@
+{
+  "journeys": [
+    {
+      "id": "first-90-days",
+      "title": "Your first 90 days as a manager",
+      "topic": "leadership",
+      "blurb": "The core habits of a good manager, in the order you will need them.",
+      "learn": ["What a manager is actually for", "How to run 1:1s and delegate", "How to give feedback that helps", "How to build a team that speaks up"],
+      "ideas": ["mm-1", "ho-1", "mm-2", "mm-3", "ho-3", "rc-1", "rc-3", "rc-4", "mm-4", "fo-1", "fo-3", "fd-1", "ts-3", "mm-6"]
+    },
+    {
+      "id": "better-feedback",
+      "title": "Give and get better feedback",
+      "topic": "leadership",
+      "blurb": "Make feedback a normal, useful part of how you work with people.",
+      "learn": ["Why holding back hurts people", "How to ask for criticism", "How to praise and criticize well", "How to make honesty safe"],
+      "ideas": ["rc-1", "rc-2", "rc-3", "rc-4", "rc-5", "fo-3", "fo-4", "md-3", "tb-3"]
+    },
+    {
+      "id": "better-decisions",
+      "title": "Make better decisions, faster",
+      "topic": "leadership",
+      "blurb": "Tools for deciding well under uncertainty, alone and as a team.",
+      "learn": ["Which decisions deserve speed", "How to separate luck from skill", "How to find risks before they hit", "How to commit as a team"],
+      "ideas": ["bz-1", "bz-2", "tb-1", "tb-2", "tb-4", "mo-4", "mo-5", "mu-4", "fd-3", "bz-3"]
+    },
+    {
+      "id": "empower-your-team",
+      "title": "Lead by giving control away",
+      "topic": "leadership",
+      "blurb": "Turn followers into leaders and get more from the people you already have.",
+      "learn": ["The leader-leader model", "How to ask instead of tell", "When control is safe to hand over", "Leading through intent"],
+      "ideas": ["ts-1", "ts-2", "ts-3", "ts-4", "mu-1", "mu-2", "mu-3", "mu-5", "eo-5", "eo-1"]
+    },
+    {
+      "id": "learn-how-to-learn",
+      "title": "Learn how to learn",
+      "topic": "learning",
+      "blurb": "The science of memory and understanding, turned into habits you can use today.",
+      "learn": ["Why rereading fails", "How spacing and recall work", "Using focused and diffuse thinking", "Checking real understanding"],
+      "ideas": ["ms-1", "ms-2", "ms-3", "ol-1", "ol-2", "ms-4", "ms-5", "ms-6", "ul-4", "ol-4", "sn-2"]
+    },
+    {
+      "id": "focus-and-habits",
+      "title": "Deep focus and daily habits",
+      "topic": "learning",
+      "blurb": "Protect your attention and build routines that make growth automatic.",
+      "learn": ["Why switching costs so much", "How to plan focused days", "How tiny habits compound", "How to recover from a miss"],
+      "ideas": ["dw-1", "dw-2", "dw-3", "ah-1", "ah-4", "ah-5", "ah-7", "dw-4", "dw-5", "ah-6"]
+    },
+    {
+      "id": "practice-like-an-expert",
+      "title": "Practice like an expert",
+      "topic": "learning",
+      "blurb": "Turn hours into real skill with deliberate, well-designed practice.",
+      "learn": ["Why experience plateaus", "The parts of purposeful practice", "Drilling weak spots", "Building feedback loops"],
+      "ideas": ["pk-1", "pk-2", "pk-3", "pk-4", "ul-1", "ul-2", "ul-3", "pk-5", "ul-5", "md-4"]
+    },
+    {
+      "id": "system-design-foundations",
+      "title": "System design foundations",
+      "topic": "engineering",
+      "blurb": "The building blocks behind scalable, reliable backends.",
+      "learn": ["How to estimate scale", "Caching, queues and statelessness", "Replication and partitioning", "Designing for failure"],
+      "ideas": ["dd-1", "sd-1", "dd-2", "sd-6", "sd-2", "sd-4", "dd-4", "dd-3", "sd-3", "dd-5", "sd-5", "dd-6"]
+    },
+    {
+      "id": "code-that-lasts",
+      "title": "Write code that lasts",
+      "topic": "engineering",
+      "blurb": "Design and habits that keep a codebase easy to change for years.",
+      "learn": ["Where complexity comes from", "Names, functions and modules", "Refactoring safely", "Thinking about code over time"],
+      "ideas": ["cc-1", "cc-2", "ap-1", "ap-2", "pp-1", "pp-4", "ap-6", "rf-1", "rf-2", "cc-3", "sg-1", "sg-3"]
+    },
+    {
+      "id": "ship-fast-stay-stable",
+      "title": "Ship fast, stay stable",
+      "topic": "engineering",
+      "blurb": "How the best teams deploy often without breaking things.",
+      "learn": ["The four DORA metrics", "Small batches and short branches", "SLOs and error budgets", "Monitoring and incidents"],
+      "ideas": ["ac-1", "ac-2", "ac-3", "ac-4", "sr-1", "sr-2", "sr-5", "sr-6", "sr-4", "ac-5"]
+    },
+    {
+      "id": "path-to-staff",
+      "title": "The path to staff engineer",
+      "topic": "engineering",
+      "blurb": "Grow your impact beyond your own code.",
+      "learn": ["The three pillars of staff work", "Influence through writing", "Making glue work visible", "Choosing work that matters"],
+      "ideas": ["se-1", "se-4", "se-5", "se-2", "se-3", "sg-4", "ho-2", "mu-1", "bm-3", "pk-1"]
+    }
+  ]
+}
